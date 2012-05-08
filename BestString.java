@@ -13,7 +13,7 @@ FR3. If two Strings have the same number of numeric characters and are the
 FR4. If the array is empty, return null;
 */
 
-class BestStringTest {
+class BestString {
 
 	public String getBestString(String[] values) {
 		String best = null;
@@ -98,7 +98,7 @@ class BestStringTest {
 			"Play Station 3",
 			"XBox 360" };
 
-		BestStringTest bs = new BestStringTest();
+		BestString bs = new BestString();
 		System.out.println(bs.getBestString(null));
 		System.out.println(bs.getBestString(values));
 	}
